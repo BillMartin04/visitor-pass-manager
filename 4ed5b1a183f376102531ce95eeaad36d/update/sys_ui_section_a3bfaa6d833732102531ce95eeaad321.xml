@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Logistics" section_id="a3bfaa6d833732102531ce95eeaad321" sys_domain="global" table="x_555344_visitor_0_visit_log" version="3" view="Concierge">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>special_instructions</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-23 07:35:19</sys_created_on>
+            <sys_id>a3bfaa6d833732102531ce95eeaad36d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Logistics" display_value="Logistics" name="x_555344_visitor_0_visit_log" sys_domain="global" view="cded26e9833732102531ce95eeaad31f">a3bfaa6d833732102531ce95eeaad321</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-23 07:35:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Logistics</caption>
+            <header>false</header>
+            <name>x_555344_visitor_0_visit_log</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-23 07:35:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3bfaa6d833732102531ce95eeaad321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_555344_visitor_0_visit_log</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
+            <sys_update_name>sys_ui_section_a3bfaa6d833732102531ce95eeaad321</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-23 07:35:19</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Concierge" name="Concierge">cded26e9833732102531ce95eeaad31f</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
