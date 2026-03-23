@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d859e265833732102531ce95eeaad3ca" label="Badge" max_length="40" name="x_555344_visitor_0_badge" type="collection">
+        <element label="QR Code ID" max_length="100" name="qr_code_id" type="string"/>
+        <element default="True" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="2" label="Badge Type" max_length="40" name="badge_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="VIP" sequence="1" value="vip"/>
+                <element inactive_on_update="false" label="Standard" sequence="0" value="standard"/>
+                <element inactive_on_update="false" label="Contractor" sequence="2" value="contractor"/>
+                <element inactive_on_update="false" label="Restricted Access" sequence="3" value="restricted_access"/>
+            </choice>
+        </element>
+        <element label="Expires" mandatory="true" max_length="40" name="expires" type="glide_date_time"/>
+        <element display="true" label="Visit Log" max_length="32" name="visit_log" reference="x_555344_visitor_0_visit_log" type="reference"/>
+        <index name="index">
+            <element name="visit_log"/>
+        </index>
+    </element>
+</database>
