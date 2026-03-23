@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1c9c4aad837332102531ce95eeaad3eb" label="Visit Log" max_length="40" name="x_555344_visitor_0_visit_log" type="collection">
+        <element label="Check-out Time" max_length="40" name="check_out_time" type="glide_date_time"/>
+        <element label="Check-in Time" max_length="40" name="check_in_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Checked Out" sequence="3" value="checked_out"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="requested"/>
+                <element inactive_on_update="false" label="Checked In" sequence="2" value="checked_in"/>
+            </choice>
+        </element>
+        <element label="Special Instructions" max_length="4000" name="special_instructions" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Visitor" mandatory="true" max_length="32" name="visitor" reference="x_555344_visitor_0_visitor" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Host" mandatory="true" max_length="32" name="host" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="host"/>
+        </index>
+        <index name="index2">
+            <element name="visitor"/>
+        </index>
+    </element>
+</database>
