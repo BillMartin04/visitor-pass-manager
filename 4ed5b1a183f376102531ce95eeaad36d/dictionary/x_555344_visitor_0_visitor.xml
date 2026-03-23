@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="2f628661837332102531ce95eeaad301" label="Visitor" max_length="40" name="x_555344_visitor_0_visitor" type="collection">
+        <element label="Last Name" max_length="100" name="last_name" type="string"/>
+        <element label="Company" max_length="100" name="company" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element display="true" label="First Name" max_length="100" name="first_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Email" max_length="100" name="email" type="string"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>
