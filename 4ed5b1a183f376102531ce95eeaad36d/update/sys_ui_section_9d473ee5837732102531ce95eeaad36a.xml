@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Badge" section_id="9d473ee5837732102531ce95eeaad36a" sys_domain="global" table="x_555344_visitor_0_badge" version="3" view="Concierge">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-23 08:37:32</sys_created_on>
+            <sys_id>3afdf22183b732102531ce95eeaad393</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Badge" display_value="Badge" name="x_555344_visitor_0_badge" sys_domain="global" view="cded26e9833732102531ce95eeaad31f">9d473ee5837732102531ce95eeaad36a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-23 08:37:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>visit_log</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-23 08:37:32</sys_created_on>
+            <sys_id>fefdf22183b732102531ce95eeaad393</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Badge" display_value="Badge" name="x_555344_visitor_0_badge" sys_domain="global" view="cded26e9833732102531ce95eeaad31f">9d473ee5837732102531ce95eeaad36a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-23 08:37:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-23 08:37:32</sys_created_on>
+            <sys_id>76fdf22183b732102531ce95eeaad394</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Badge" display_value="Badge" name="x_555344_visitor_0_badge" sys_domain="global" view="cded26e9833732102531ce95eeaad31f">9d473ee5837732102531ce95eeaad36a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-23 08:37:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-23 08:37:32</sys_created_on>
+            <sys_id>fafdf22183b732102531ce95eeaad394</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Badge" display_value="Badge" name="x_555344_visitor_0_badge" sys_domain="global" view="cded26e9833732102531ce95eeaad31f">9d473ee5837732102531ce95eeaad36a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-23 08:37:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expires</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-23 08:37:32</sys_created_on>
+            <sys_id>72fdf22183b732102531ce95eeaad395</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Badge" display_value="Badge" name="x_555344_visitor_0_badge" sys_domain="global" view="cded26e9833732102531ce95eeaad31f">9d473ee5837732102531ce95eeaad36a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-23 08:37:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Badge</caption>
+            <header>false</header>
+            <name>x_555344_visitor_0_badge</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-23 08:08:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d473ee5837732102531ce95eeaad36a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_555344_visitor_0_badge</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
+            <sys_update_name>sys_ui_section_9d473ee5837732102531ce95eeaad36a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-23 08:37:31</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Concierge" name="Concierge">cded26e9833732102531ce95eeaad31f</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
