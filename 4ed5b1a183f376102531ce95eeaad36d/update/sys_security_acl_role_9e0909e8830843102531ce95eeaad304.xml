@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-01 07:48:21</sys_created_on>
+        <sys_id>9e0909e8830843102531ce95eeaad304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.555344.concierge-workspace.*.x_555344_visitor_0.visitor_conciercge</sys_name>
+        <sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
+        <sys_security_acl display_value="x.555344.concierge-workspace.*">c50985e8d3084310aa5c8de792a5bf76</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_9e0909e8830843102531ce95eeaad304</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-01 07:48:21</sys_updated_on>
+        <sys_user_role display_value="x_555344_visitor_0.visitor_conciercge" name="x_555344_visitor_0.visitor_conciercge">b6d5b1a183f376102531ce95eeaad393</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

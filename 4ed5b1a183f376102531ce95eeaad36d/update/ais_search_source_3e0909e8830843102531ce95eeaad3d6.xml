@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_source">
+    <ais_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <datasource display_value="">x_555344_visitor_0_visit_log</datasource>
+        <has_dynamic_filters>false</has_dynamic_filters>
+        <name>Visit Log</name>
+        <sys_class_name>ais_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-01 07:48:23</sys_created_on>
+        <sys_id>3e0909e8830843102531ce95eeaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visit Log</sys_name>
+        <sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
+        <sys_update_name>ais_search_source_3e0909e8830843102531ce95eeaad3d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-01 07:48:23</sys_updated_on>
+    </ais_search_source>
+</record_update>

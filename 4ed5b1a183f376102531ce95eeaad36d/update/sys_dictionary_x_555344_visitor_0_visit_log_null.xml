@@ -53,9 +53,9 @@
         <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
         <sys_update_name>sys_dictionary_x_555344_visitor_0_visit_log_null</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-23 05:01:38</sys_updated_on>
+        <sys_updated_on>2026-04-01 07:48:22</sys_updated_on>
         <table_reference>false</table_reference>
-        <text_index>false</text_index>
+        <text_index>true</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>

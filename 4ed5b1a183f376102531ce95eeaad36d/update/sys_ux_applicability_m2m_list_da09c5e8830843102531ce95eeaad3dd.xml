@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Audience for app concierge-workspace">ce09c5e8830843102531ce95eeaad3ad</applicability>
+        <list display_value="All">5609c5e8830843102531ce95eeaad3db</list>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-01 07:48:21</sys_created_on>
+        <sys_id>da09c5e8830843102531ce95eeaad3dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_da09c5e8830843102531ce95eeaad3dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-01 07:48:21</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+</record_update>

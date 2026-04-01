@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">0c19c9e8830843102531ce95eeaad325</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"enableRealTimeUpdate":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Badge","sourceType":"table","tableOrViewName":"x_555344_visitor_0_badge","filterQuery":"active=true","id":"tablex_555344_visitor_0_badge1775029708449","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Unassigned Tasks","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"tablex_555344_visitor_0_badge1775029708449","id":"tablex_555344_visitor_0_badge17750297084491775029708451","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props>
+        <h>9</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-01 07:48:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0019c9e8830843102531ce95eeaad328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
+        <sys_update_name>par_dashboard_widget_0019c9e8830843102531ce95eeaad328</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-01 07:48:28</sys_updated_on>
+        <visualization/>
+        <w>16</w>
+        <widget_props/>
+        <x>16</x>
+        <y>3</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</application>
+        <file_path/>
+        <instance_id>f7ce587b3b3866d0986d048aa4e45a67</instance_id>
+        <instance_name>dev328600</instance_name>
+        <name>par_dashboard_widget_0019c9e8830843102531ce95eeaad328</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">0c19c9e8830843102531ce95eeaad325</canvas><component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component><component_props>{"scoreSize":"md","headingPosition":"top","sparklineStyle":"area","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":true,"enableRealTimeUpdate":true,"showZero":true,"colorConfig":{"type":"default"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Badge","sourceType":"table","tableOrViewName":"x_555344_visitor_0_badge","filterQuery":"active=true","id":"tablex_555344_visitor_0_badge1775029708449","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Unassigned Tasks","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"tablex_555344_visitor_0_badge1775029708449","id":"tablex_555344_visitor_0_badge17750297084491775029708451","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableDrilldown":true,"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","hideMatrixAggregate":false,"newReporting":false,"filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props><h>9</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-01 07:48:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0019c9e8830843102531ce95eeaad328</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package><sys_policy/><sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope><sys_update_name>par_dashboard_widget_0019c9e8830843102531ce95eeaad328</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-01 07:48:28</sys_updated_on><visualization/><w>16</w><widget_props/><x>16</x><y>3</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>527417049</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>58404aad833332102531ce95eeaad39a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-01 07:48:29</sys_created_on>
+        <sys_id>0419c9e8830843102531ce95eeaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d4803e9160000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-01 07:48:29</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>4819c9e87d084310a2249da84145fb2a</update_guid>
+        <update_guid_history>4819c9e87d084310a2249da84145fb2a:527417049</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">6819c9e8830843102531ce95eeaad3ba</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-01 07:48:30</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>a021a9efc6e04ff4832a471242fdfe10</sys_id>
+        <sys_metadata>0019c9e8830843102531ce95eeaad328</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
+        <sys_scope_delete display_value="">6bdd4349e3bf4f88b2fe758a163f2fe1</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_0019c9e8830843102531ce95eeaad328</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_0019c9e8830843102531ce95eeaad328">0419c9e8830843102531ce95eeaad32b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-01 07:48:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

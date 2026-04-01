@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="1c9c4aad837332102531ce95eeaad3eb" label="Visit Log" max_length="40" name="x_555344_visitor_0_visit_log" type="collection">
+    <element db_object_id="1c9c4aad837332102531ce95eeaad3eb" label="Visit Log" max_length="40" name="x_555344_visitor_0_visit_log" text_index="true" type="collection">
         <element label="Check-out Time" max_length="40" name="check_out_time" type="glide_date_time"/>
         <element label="Check-in Time" max_length="40" name="check_in_time" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="770949e8830843102531ce95eeaad314" sys_domain="global" table="x_555344_visitor_0_visit_log" version="3" view="workspace-concierge-workspace-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-01 07:48:28</sys_created_on>
+            <sys_id>0419c9e8830843102531ce95eeaad307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_555344_visitor_0_visit_log" sys_domain="global" view="410985e8750843100e9e41d83140f576">770949e8830843102531ce95eeaad314</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-01 07:48:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_555344_visitor_0_visit_log</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-01 07:48:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>770949e8830843102531ce95eeaad314</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_555344_visitor_0_visit_log</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
+            <sys_update_name>sys_ui_section_770949e8830843102531ce95eeaad314</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-01 07:48:28</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Concierge Workspace 0" name="workspace-concierge-workspace-0">410985e8750843100e9e41d83140f576</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
