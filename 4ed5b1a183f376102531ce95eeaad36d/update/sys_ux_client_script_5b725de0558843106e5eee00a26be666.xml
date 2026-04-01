@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Landing Page">93725de04c88431082b33f4baedb0273</macroponent>
+        <name>My Tasks - Set sysID inside modal</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    event,
+    imports
+}) {
+        api.setState("cardID",event.payload.sysId);
+    } 
+]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-01 08:29:44</sys_created_on>
+        <sys_id>5b725de0558843106e5eee00a26be666</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Tasks - Set sysID inside modal</sys_name>
+        <sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
+        <sys_update_name>sys_ux_client_script_5b725de0558843106e5eee00a26be666</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-01 08:29:44</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

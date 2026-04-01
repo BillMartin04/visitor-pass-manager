@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Record Page(request)">5b725de0e68843106770022f2839216f</macroponent>
+        <name>Set catalog Imge</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var model = {};
+    var input = api.data.look_up_records_1.results[0].cat_item._reference;
+    var modelData = input.picture.displayValue;
+    if (modelData != undefined) {
+        model.headerImage = modelData;
+        model.fieldLabel = "Test value"; //Here only to support the required structure of the object
+    }
+    api.setState('setImage', model);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-01 08:29:42</sys_created_on>
+        <sys_id>93725de06f8843106753a2b758f60864</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set catalog Imge</sys_name>
+        <sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
+        <sys_update_name>sys_ux_client_script_93725de06f8843106753a2b758f60864</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-01 08:29:42</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

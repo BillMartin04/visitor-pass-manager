@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Visitor Self-Service Portal App Config">d7725de03f88431040e64d2fa250472a</app_config>
+        <description/>
+        <extension_point/>
+        <fields>searchContextConfigId</fields>
+        <icon/>
+        <interoperable>false</interoperable>
+        <name>Search Page</name>
+        <optional_parameters>searchTerm</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>search</route_type>
+        <screen_type display_value="Search Page">9b725de01388431017843b802aa44c6b</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-01 08:29:43</sys_created_on>
+        <sys_id>53725de069884310e2d6ab21416a926b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search Page</sys_name>
+        <sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
+        <sys_update_name>sys_ux_app_route_53725de069884310e2d6ab21416a926b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-01 08:29:43</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=53725de069884310e2d6ab21416a926b"/>
+</record_update>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>CATALOG_ITEM_CARD_CLICKED</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Catalog item card clicked</label>
+        <props>[&#13;
+   {&#13;
+      "name":"sysId",&#13;
+      "fieldType":"string",&#13;
+      "label":"Sys ID",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   },&#13;
+    {&#13;
+      "name":"table",&#13;
+      "fieldType":"string",&#13;
+      "label":"Table",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   }&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-01 08:29:44</sys_created_on>
+        <sys_id>df725de045884310b5b7ed984802c572</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Catalog item card clicked</sys_name>
+        <sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
+        <sys_update_name>sys_ux_event_df725de045884310b5b7ed984802c572</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-01 08:29:44</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=df725de045884310b5b7ed984802c572"/>
+</record_update>

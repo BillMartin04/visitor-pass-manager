@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>NAV_ITEM_SELECTED_RELAY_c9bb2397b720101016fddb91de11a9f2</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Nav Item Selected Relay (Portal Landing Page Default)</label>
+        <props>[{"name":"route","fieldType":"string","interfaceApiName":"global.route","label":"Route Type"},{"name":"fields","fieldType":"string","interfaceApiName":"global.route","label":"Route Fields"},{"name":"params","fieldType":"string","interfaceApiName":"global.route","label":"Optionals Parameters"},{"name":"redirect","fieldType":"boolean","interfaceApiName":null,"label":"If redirect is true, url will be redirected"}]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-01 08:29:43</sys_created_on>
+        <sys_id>db725de08b88431026c321efeb9abc38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nav Item Selected Relay (Portal Landing Page Default)</sys_name>
+        <sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
+        <sys_update_name>sys_ux_event_db725de08b88431026c321efeb9abc38</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-01 08:29:43</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=db725de08b88431026c321efeb9abc38"/>
+</record_update>
