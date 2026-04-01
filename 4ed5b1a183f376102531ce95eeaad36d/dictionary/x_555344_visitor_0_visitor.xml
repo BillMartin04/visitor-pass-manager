@@ -2,6 +2,7 @@
     <element db_object_id="2f628661837332102531ce95eeaad301" label="Visitor" max_length="40" name="x_555344_visitor_0_visitor" text_index="true" type="collection">
         <element label="Last Name" max_length="100" name="last_name" type="string"/>
         <element label="Company" max_length="100" name="company" type="string"/>
+        <element label="Host" max_length="32" name="host" reference="sys_user" type="reference"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Mobile Phone" max_length="40" name="mobile_phone" type="phone_number_e164"/>
         <element display="true" label="First Name" max_length="100" name="first_name" type="string"/>
@@ -12,6 +13,9 @@
             <element name="email"/>
         </index>
         <index name="index2">
+            <element name="host"/>
+        </index>
+        <index name="index3">
             <element name="sys_class_name"/>
         </index>
     </element>

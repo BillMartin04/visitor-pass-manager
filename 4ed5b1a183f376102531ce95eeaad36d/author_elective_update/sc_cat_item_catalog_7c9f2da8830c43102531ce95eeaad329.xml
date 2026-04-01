@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Visitor Check-In">6cc451e4838843102531ce95eeaad3ad</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-01 10:36:44</sys_created_on>
+        <sys_id>7c9f2da8830c43102531ce95eeaad329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Visitor Check-In</sys_name>
+        <sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_7c9f2da8830c43102531ce95eeaad329</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-01 10:36:44</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</application>
+        <file_path/>
+        <instance_id>f7ce587b3b3866d0986d048aa4e45a67</instance_id>
+        <instance_name>dev328600</instance_name>
+        <name>sc_cat_item_catalog_7c9f2da8830c43102531ce95eeaad329</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Visitor Check-In">6cc451e4838843102531ce95eeaad3ad</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-01 10:36:44</sys_created_on><sys_id>7c9f2da8830c43102531ce95eeaad329</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Visitor Check-In</sys_name><sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package><sys_policy/><sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope><sys_update_name>sc_cat_item_catalog_7c9f2da8830c43102531ce95eeaad329</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-01 10:36:44</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1581358281</payload_hash>
+        <record_name>Service Catalog.Visitor Check-In</record_name>
+        <reverted_from/>
+        <source>58404aad833332102531ce95eeaad39a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-01 10:36:45</sys_created_on>
+        <sys_id>c59f2da8830c43102531ce95eeaad32d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d489df64f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-01 10:36:45</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>899f2da8d20c431039dd1cf251869e2c</update_guid>
+        <update_guid_history>899f2da8d20c431039dd1cf251869e2c:-1581358281</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Visitor Check-In">7380312c830c43102531ce95eeaad3a1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-01 10:41:02</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>3da2de4ac6dc4ce2ac3adba28be95d49</sys_id>
+        <sys_metadata>7c9f2da8830c43102531ce95eeaad329</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Visitor Check-In</sys_name>
+        <sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package>
+        <sys_parent display_value="Visitor Check-In">6cc451e4838843102531ce95eeaad3ad</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
+        <sys_scope_delete display_value="">6bdd4349e3bf4f88b2fe758a163f2fe1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_7c9f2da8830c43102531ce95eeaad329</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_7c9f2da8830c43102531ce95eeaad329">c59f2da8830c43102531ce95eeaad32d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-01 10:41:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
