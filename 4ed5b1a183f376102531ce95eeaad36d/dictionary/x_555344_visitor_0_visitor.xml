@@ -3,10 +3,15 @@
         <element label="Last Name" max_length="100" name="last_name" type="string"/>
         <element label="Company" max_length="100" name="company" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Mobile Phone" max_length="40" name="mobile_phone" type="phone_number_e164"/>
         <element display="true" label="First Name" max_length="100" name="first_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Email" max_length="100" name="email" type="string"/>
-        <index name="index">
+        <element label="Email" max_length="100" name="email" type="string" unique="true"/>
+        <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
+        <index name="index" unique="true">
+            <element name="email"/>
+        </index>
+        <index name="index2">
             <element name="sys_class_name"/>
         </index>
     </element>
