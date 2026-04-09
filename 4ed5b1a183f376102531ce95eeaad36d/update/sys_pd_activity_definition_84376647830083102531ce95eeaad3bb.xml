@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <activity_type/>
+        <additional_functionality/>
+        <badge/>
+        <category display_value="Generic Activity">b51cee574320311089db5fb208b8f269</category>
+        <description/>
+        <experience_display_preferences/>
+        <input_display_preferences>current=all;table_name=all;</input_display_preferences>
+        <inputs/>
+        <label>Visitor Arrival Notification</label>
+        <name>visitor_arrival_notification</name>
+        <outputs/>
+        <required_roles/>
+        <source>07c7d20383cc43102531ce95eeaad388</source>
+        <source_type>sys_hub_flow</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-09 09:04:31</sys_created_on>
+        <sys_id>84376647830083102531ce95eeaad3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visitor Arrival Notification</sys_name>
+        <sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_84376647830083102531ce95eeaad3bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-09 09:04:31</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=84376647830083102531ce95eeaad3bb"/>
+    <sys_variable_value action="delete_multiple" query="document_key=84376647830083102531ce95eeaad3bb"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_07c7d20383cc43102531ce95eeaad388^id=84376647830083102531ce95eeaad3bb"/>
+</record_update>
