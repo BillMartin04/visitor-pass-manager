@@ -6,7 +6,7 @@
         <applies_to/>
         <condition/>
         <controlled_by_refs/>
-        <decision_type/>
+        <decision_type>allow</decision_type>
         <description/>
         <local_or_existing/>
         <name>x.555344.concierge-workspace.*</name>
