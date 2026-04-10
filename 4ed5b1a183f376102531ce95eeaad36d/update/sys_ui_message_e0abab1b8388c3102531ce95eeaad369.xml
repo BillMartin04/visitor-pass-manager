@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <code>playbook_b69e920b83cc43102531ce95eeaad349</code>
+        <commented_message/>
+        <key>Recover the badge and mark the visitor as checked out in the system</key>
+        <language>en</language>
+        <message>Recover the badge and mark the visitor as checked out in the system</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-10 08:42:03</sys_created_on>
+        <sys_id>e0abab1b8388c3102531ce95eeaad369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recover the badge and mark the visitor as checked out in the system</sys_name>
+        <sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
+        <sys_update_name>sys_ui_message_e0abab1b8388c3102531ce95eeaad369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-10 08:42:03</sys_updated_on>
+    </sys_ui_message>
+</record_update>

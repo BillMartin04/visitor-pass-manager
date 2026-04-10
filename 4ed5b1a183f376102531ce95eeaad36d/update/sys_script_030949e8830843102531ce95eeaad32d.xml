@@ -12,7 +12,7 @@
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
         <collection>x_555344_visitor_0_visitor</collection>
-        <condition>current.operation() == 'delete' || current.active.changesTo(false)</condition>
+        <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
@@ -27,8 +27,11 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
-	new global.AisDisableSearchSignalEvent().disable(current.sys_id);
+        <script><![CDATA[(function executeRule(current, previous /* null when async */) {
+    if (!current || !current.sys_id)
+        return;
+
+    new global.AisDisableSearchSignalEvent().disable(current.sys_id);
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -36,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>030949e8830843102531ce95eeaad32d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Disable x_555344_visitor_0_visitor inact</sys_name>
         <sys_overrides/>
         <sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package>
@@ -44,7 +47,7 @@
         <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
         <sys_update_name>sys_script_030949e8830843102531ce95eeaad32d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-01 07:48:24</sys_updated_on>
+        <sys_updated_on>2026-04-10 04:53:22</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

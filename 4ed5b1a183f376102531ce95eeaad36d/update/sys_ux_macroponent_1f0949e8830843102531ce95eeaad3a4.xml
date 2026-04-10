@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <bundles/>
+        <bundles>[]</bundles>
         <category>page</category>
         <component_dependencies/>
         <composition>[
@@ -1834,6 +1834,20 @@
                             },
                             "order": 200,
                             "type": "local"
+                        },
+                        {
+                            "icon": "playbook-fill",
+                            "id": "playbook",
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "Visitor Summary"
+                                }
+                            },
+                            "order": 300,
+                            "type": "local"
                         }
                     ],
                     "overrides": {
@@ -1909,6 +1923,7 @@
                                         "version": "3.0.0"
                                     }
                                 },
+                                "preset": null,
                                 "propertyValues": {
                                     "ariaRegionHeadingLevel": {
                                         "type": "JSON_LITERAL",
@@ -1926,9 +1941,17 @@
                                         "type": "JSON_LITERAL",
                                         "value": ""
                                     },
+                                    "hideEmptyStateUi": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
                                     "includeAriaHeading": {
                                         "type": "JSON_LITERAL",
                                         "value": false
+                                    },
+                                    "slotWrapperBehavior": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "fullheight"
                                     },
                                     "type": {
                                         "type": "JSON_LITERAL",
@@ -2066,11 +2089,176 @@
                                     "height": "100%",
                                     "width": "100%"
                                 }
+                            },
+                            {
+                                "definition": {
+                                    "id": "d356d14b6e293a3020a244b63d278d8f",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "playbook",
+                                "elementLabel": "Visitor Summary",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "name": "Playbook",
+                                "overrides": {
+                                    "composition": [
+                                        {
+                                            "definition": {
+                                                "id": "ed99051389038d7a6d57069eecc5a122",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "playbook_2",
+                                            "elementLabel": "Visitor Journey Playbook",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "preset": {
+                                                "controllerElementId": "ui_controller_record_page_1",
+                                                "disabledEventTargetIds": [],
+                                                "id": "d2d7eb293fafb19c15eefd71fb928f6c"
+                                            },
+                                            "propertyValues": {
+                                                "activityView": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "stacked"
+                                                },
+                                                "compactMode": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "daClientActionContract": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "enableFullWidthCards": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideBackToPlaybookLink": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "parentSysId": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "sysId"
+                                                        ],
+                                                        "category": "props"
+                                                    },
+                                                    "type": "CONTEXT_BINDING"
+                                                },
+                                                "parentTable": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "x_555344_visitor_0_visitor"
+                                                },
+                                                "playbookExperienceId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "98e09a560f2200102920c912d4767e1a"
+                                                },
+                                                "selectedActivityContextId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "selectedLaneContextId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "selectedPlaybookContextId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "userId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        }
+                                    ],
+                                    "layout": {
+                                        "default": {
+                                            "children": null,
+                                            "items": [
+                                                {
+                                                    "element_id": "playbook_2",
+                                                    "styles": {}
+                                                }
+                                            ],
+                                            "root": null,
+                                            "rules": null,
+                                            "styles": {
+                                                "flex-direction": "column",
+                                                "min-height": "300px",
+                                                "width": "100%"
+                                            },
+                                            "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                            "type": "flex"
+                                        },
+                                        "version": "3.0.0"
+                                    }
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "ariaRegionHeadingLevel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "1"
+                                    },
+                                    "ariaRegionName": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": ""
+                                        }
+                                    },
+                                    "ariaRole": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "hideEmptyStateUi": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "includeAriaHeading": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "slotWrapperBehavior": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "fullheight"
+                                    },
+                                    "type": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "section"
+                                    }
+                                },
+                                "slot": "playbook",
+                                "styles": null
                             }
                         ],
                         "layout": null
                     },
                     "propertyValues": {
+                        "activeRoute": {
+                            "icon": null,
+                            "id": "playbook",
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "Playbook"
+                                }
+                            },
+                            "order": 300,
+                            "type": "local"
+                        },
                         "defaultRoute": null,
                         "dynamicTabData": {
                             "type": "JSON_LITERAL",
@@ -4577,6 +4765,88 @@
             }
         },
         "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "0c3568c75bee0110d78e9e7fb681c784",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {
+            "gform": "record"
+        },
+        "elementId": "ui_controller_record_page_1",
+        "elementLabel": "UI Controller Record Page 1",
+        "eventMappings": [],
+        "inputValues": {
+            "activityLogs": {
+                "binding": {
+                    "address": [
+                        "activityLogs"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "extraParams": {
+                "binding": {
+                    "address": [
+                        "extraParams"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "fields": {
+                "binding": {
+                    "address": [
+                        "fields"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "query": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "screen": {
+                "binding": {
+                    "address": [
+                        "screen"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "selectedTabIndex": {
+                "binding": {
+                    "address": [
+                        "selectedTabIndex"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "userPrefs": {
+                "binding": {
+                    "address": [
+                        "userPrefs"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "views": {
+                "binding": {
+                    "address": [
+                        "views"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "readEvaluationMode": "EAGER"
     }
 ]</data>
         <description/>
@@ -4811,6 +5081,19 @@
         "selectable": false,
         "typeMetadata": null,
         "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "hhfeaBeehhTuAaaTAeeddIsNnccUjjseXO",
+        "inherited": false,
+        "label": "selectedTabIndex",
+        "mandatory": false,
+        "name": "selectedTabIndex",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
     }
 ]</props>
         <required_translations>[ {
@@ -4854,6 +5137,10 @@
   "code" : "",
   "comment" : ""
 }, {
+  "message" : "Playbook",
+  "code" : "",
+  "comment" : ""
+}, {
   "message" : "Record History",
   "code" : "",
   "comment" : ""
@@ -4874,6 +5161,10 @@
   "code" : "",
   "comment" : ""
 }, {
+  "message" : "Visitor Summary",
+  "code" : "",
+  "comment" : ""
+}, {
   "message" : "Yes",
   "code" : "",
   "comment" : ""
@@ -4891,14 +5182,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-01 07:48:25</sys_created_on>
         <sys_id>1f0949e8830843102531ce95eeaad3a4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Visitor Record Page</sys_name>
         <sys_package display_value="Visitor Pass Manager" source="x_555344_visitor_0">4ed5b1a183f376102531ce95eeaad36d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Visitor Pass Manager">4ed5b1a183f376102531ce95eeaad36d</sys_scope>
         <sys_update_name>sys_ux_macroponent_1f0949e8830843102531ce95eeaad3a4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-01 07:48:27</sys_updated_on>
+        <sys_updated_on>2026-04-10 04:37:21</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=1f0949e8830843102531ce95eeaad3a4"/>
 </record_update>
