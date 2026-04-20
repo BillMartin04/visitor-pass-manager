@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="2f628661837332102531ce95eeaad301" label="Visitor" max_length="40" name="x_555344_visitor_0_visitor" text_index="true" type="collection">
         <element label="Last Name" max_length="100" name="last_name" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="2" value="new"/>
+                <element inactive_on_update="false" label="Check Out" sequence="1" value="check_out"/>
+                <element inactive_on_update="false" label="Check In" sequence="0" value="check_in"/>
+            </choice>
+        </element>
         <element label="Company" max_length="100" name="company" type="string"/>
         <element label="Host" max_length="32" name="host" reference="sys_user" type="reference"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
