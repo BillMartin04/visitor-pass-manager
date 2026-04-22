@@ -16,6 +16,7 @@
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Email" max_length="100" name="email" type="string" unique="true"/>
         <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
+        <element label="Parent" max_length="32" name="parent" reference="task" type="reference"/>
         <index name="index" unique="true">
             <element name="email"/>
         </index>
@@ -23,6 +24,9 @@
             <element name="host"/>
         </index>
         <index name="index3">
+            <element name="parent"/>
+        </index>
+        <index name="index4">
             <element name="sys_class_name"/>
         </index>
     </element>
